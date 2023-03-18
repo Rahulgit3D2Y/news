@@ -1,0 +1,34 @@
+/* owl-carousel */
+.back-img
+{
+    background-image: url('images/image-gaming-growth.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#news-left,#news-right
+    {
+        width:50%;
+    }
+    #news-right
+    {
+        position: relative;
+        left: 8%;
+    }
+.owl-nav,.owl-dots
+{
+    display: none;
+}
+@media (width<800px) {
+    #news-carousel
+    {
+        flex-direction: column;
+    }
+    #news-left,#news-right
+    {
+        width:100%;
+        position: relative;
+        left: 0;
+    }
+}
